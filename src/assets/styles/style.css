@@ -1,0 +1,72 @@
+/* Navigation Bar */
+
+#navigation-bar
+{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+#company-name
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#nav-list-items
+{
+    font-size: 1.2rem;
+    font-weight: 500
+}
+
+#dropdown-list-items
+{
+    font-size: 1.2rem;
+    font-weight: 500
+}
+
+#cart-button
+{
+    width: 115px !important;
+    border-color: black;
+    font-size: 1.2rem;
+}
+
+#cart-button:hover
+{
+    color: white;
+    background-color: black;
+    transition: 0.9s ease;
+}
+
+#cart-counter
+{
+    font-size: 1rem;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 0px 7px 2px 6px;
+}
+
+/* Home Page */
+
+#homepage-area
+{
+    padding: 60px 0px;
+}
+
+#header-text-one
+{
+    font-size: 3rem !important;
+    font-weight: 700;
+}
+
+#header-text-two
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card:hover
+{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
