@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const ShoppingCart = () => {
   const [products, setProducts] = useState([
     { id: 1, 
-      image:'./src/assets/adidascoralsneaker.jpg',
+      image:'./images/adidascoralsneaker.jpg',
       name: 'Adidas Training Shoes', 
       price: "$380.00", 
       inCart: false 
@@ -11,7 +11,7 @@ const ShoppingCart = () => {
 
     {
       id: 2,
-      image: "./src/assets/niketrainingsoe.jpg",
+      image: "./images/niketrainingsoe.jpg",
       name: "Nike Training Shoes",
       price:"$300.00",
       inCart: false
@@ -19,7 +19,7 @@ const ShoppingCart = () => {
 
   {
       id: 3,
-      image: "./src/assets/pumatrainingshoe.jpg",
+      image: "./images/pumatrainingshoe.jpg",
       name: "Puma Training Shoes",
       price:"$250.00",
       inCart: false
@@ -27,7 +27,7 @@ const ShoppingCart = () => {
 
   {
       id: 4,
-      image: "./src/assets/nikeairwhitejordan1.jpg",
+      image: "./images/nikeairwhitejordan1.jpg",
       name: "Nike White Air Jordan 1",
       price:"$340.00",
       inCart: false
@@ -35,7 +35,7 @@ const ShoppingCart = () => {
 
   {
       id: 5,
-      image: "./src/assets/nikeairsneaker.jpg",
+      image: "./images/nikeairsneaker.jpg",
       name: "Nike Air Sneakers",
       price:"$250.00",
       inCart: false
@@ -43,7 +43,7 @@ const ShoppingCart = () => {
 
   {
       id: 6,
-      image: "./src/assets/pumawhitesneaker.jpg",
+      image: "./images/pumawhitesneaker.jpg",
       name: "Puma White Sneakers",
       price:"$280.00",
       inCart: false
@@ -51,7 +51,7 @@ const ShoppingCart = () => {
 
   {
       id: 7,
-      image: "./src/assets/adidassneaker.jpg",
+      image: "./images/adidassneaker.jpg",
       name: "Adidas White Sneakers",
       price:"$180.00",
       inCart: false
@@ -59,7 +59,7 @@ const ShoppingCart = () => {
 
   {
       id: 8,
-      image: "./src/assets/nikeairjordan1.jpg",
+      image: "./images/nikeairjordan1.jpg",
       name: "Nike Air Jordan 1",
       price:"$400.00",
       inCart: false
