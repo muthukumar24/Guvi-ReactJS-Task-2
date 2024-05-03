@@ -16,18 +16,21 @@ The given task is to create a shoping cart using React JS.
 Workflow of the shoping cart:
 
 - The shopping cart displays a list of available products.
-- Users can able to add items to the cart by clicking the "Add to Cart" button.
+- Users can add items to the cart by clicking the "Add to Cart" button.
 - When an item is added to the cart, the cart quantity number will increase.
 - The "Add to Cart" button will be changed to the "Remove from Cart" button once the item is added to the cart.
-- Users can able to remove items from the cart by clicking the "Remove from Cart" button.
+- Users can remove items from the cart by clicking the "Remove from Cart" button.
 - When an item is removed from the cart, the cart quantity number will decrease.
 - The "Remove from Cart" button will change back to the "Add to Cart" button once the item is removed from the cart.
 
 Please refer the following files for Source Code:
 
 - index.html
+- src/assets/styles/style.css
 - src/App.jsx
 - src/Components/ShopingCart.jsx
-- src/assets/styles/style.css
+
+Product Images:
+- public/images
 
 Thankyou and Awaiting Feedback.

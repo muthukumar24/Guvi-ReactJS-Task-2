@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// Product Datas
 const ShoppingCart = () => {
   const [products, setProducts] = useState([
     { id: 1, 
@@ -66,8 +67,10 @@ const ShoppingCart = () => {
   }
   ]);
 
+  // To update cart quantity
   const [cart, setCart] = useState([]);
   
+  // Add to Cart Function
   const addToCart = (product) => {
     const updatedProducts = products.map(p => {
       if (p.id === product.id) {
@@ -79,6 +82,7 @@ const ShoppingCart = () => {
     setCart([...cart, product]);
   };
 
+  // Remove from Cart Function
   const removeFromCart = (product) => {
     const updatedProducts = products.map(p => {
       if (p.id === product.id) {
@@ -137,12 +141,16 @@ const ShoppingCart = () => {
       {/* Cart Area */}
             <div className="container px-4 mt-5 mb-5">
                 <div className="row">
+                    {/* Used Map Method to generate product card */}
                     {products.map(product => (
                         <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" key={product.id}>
                             <div className="card mb-3" id="card-area">
+                                {/* Product Image */}
                                 <img className="card-img-top" src={product.image} />
                                     <div className="card-body">
+                                          {/* Product Name */}
                                           <h4 className="text-center" id="headertext-two">{product.name}</h4>
+                                          {/* Product Rattings */}
                                           <div className="d-flex justify-content-center mb-2">
                                               <i className="bi bi-star-fill"></i>
                                               <i className="bi bi-star-fill"></i>
@@ -150,8 +158,13 @@ const ShoppingCart = () => {
                                               <i className="bi bi-star-fill"></i>
                                               <i className="bi bi-star-half"></i>
                                           </div>
+                                          {/* Product Price */}
                                           <h5 className="text-center">{product.price}</h5>
                                           <div className="d-grid d-flex justify-content-center">
+                                          {/* Cart Buttons */}
+                                          {/* Add to Cart button or Remove from Cart button will be enabled Depends on the "inCart" status */}
+                                          {/* If inCart status is in true status then Remove from Cart button will be enabled */}
+                                          {/* If inCart status is in false status then Add to Cart button will be enabled */}
                                           {product.inCart ? (
                                             <button className="btn btn-outline-dark mt-4 text-center" onClick={() => removeFromCart(product)}>Remove from Cart</button>
                                             ) : (
