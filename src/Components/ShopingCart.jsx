@@ -138,7 +138,7 @@ const ShoppingCart = () => {
             </header>
 
 
-      {/* Cart Area */}
+      {/* Card Area */}
             <div className="container px-4 mt-5 mb-5">
                 <div className="row">
                     {/* Used Map Method to generate product card */}
